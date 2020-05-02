@@ -1,10 +1,7 @@
-import 'package:laravel_echo/src/connector/connector.dart';
-import 'package:laravel_echo/src/channel/channel.dart';
-import 'package:laravel_echo/src/channel/private-channel.dart';
-import 'package:laravel_echo/src/channel/presence-channel.dart';
 import 'package:laravel_echo/src/channel/pusher-channel.dart';
-import 'package:laravel_echo/src/channel/pusher-private-channel.dart';
 import 'package:laravel_echo/src/channel/pusher-presence-channel.dart';
+import 'package:laravel_echo/src/channel/pusher-private-channel.dart';
+import 'package:laravel_echo/src/connector/connector.dart';
 
 ///
 /// This class creates a null connector.
