@@ -61,7 +61,7 @@ class PusherChannel extends Channel {
     } else {
       this.subcription.bind(event, callback);
     }
-    
+
     return this;
   }
 }

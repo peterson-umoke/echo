@@ -11,7 +11,7 @@ class PusherConnector extends Connector {
   dynamic pusher;
 
   /// All of the subscribed channel names.
-  dynamic channels = {};
+  Map channels = {};
 
   PusherConnector(dynamic options) : super(options);
 
